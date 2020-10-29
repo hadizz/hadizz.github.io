@@ -17,7 +17,7 @@ const data = {
                 improving my skills in
                 <strong>Frontend development</strong>. You
                 can find my recent work on
-                my <a class="fw-bold" href="https://linkedin.com/in/hadizare" target="_blank">Linkedin Profile</a>.
+                my <a id="link" href="https://linkedin.com/in/hadizare" target="_blank">Linkedin Profile</a>.
             </p>`,
 };
 

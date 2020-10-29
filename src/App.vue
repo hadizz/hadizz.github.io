@@ -1,30 +1,23 @@
 <template>
   <Header />
-  <p id="bio"></p>
+  <Bio v-bind:bio="data.bio" />
 </template>
 
 <script>
 import Header from './components/Header';
+import Bio from './components/Bio';
 import data from './data';
 
 export default {
   name: 'App',
   components: {
     Header,
+    Bio,
   },
   data() {
     return {
       data: data,
     };
-  },
-  mounted: function() {
-    this.init();
-  },
-  methods: {
-    init: function() {
-      console.log('init');
-      document.getElementById('bio').innerHTML = data.bio;
-    },
   },
 };
 </script>
