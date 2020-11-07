@@ -25,17 +25,13 @@
         />
       </div>
       <div>
-        <Information
-          alt="phone"
-          :src="images.phone"
-          text="09025413379"
-          clickable
-        />
+        <Information alt="phone" :src="images.phone" text="09025413379" />
 
         <Information
           alt="email"
           :src="images.email"
           text="hadizareoriginal@gmail.com"
+          href="hadizareoriginal@gmail.com"
         />
       </div>
     </div>
